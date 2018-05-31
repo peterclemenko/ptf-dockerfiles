@@ -5,10 +5,12 @@ LABEL maintainer="Peter Clemenko"
 ENV HOME=/pentest
 
 WORKDIR $HOME
+
+RUN git clone https://github.com/trustedsec/ptf.git /pentest/ptf
+
 COPY ./ptf.config $HOME/ptf/config/ptf.config
 WORKDIR $HOME/ptf
 
-RUN git clone https://github.com/trustedsec/ptf.git /pentest/ptf
 
 WORKDIR /pentest/ptf
 

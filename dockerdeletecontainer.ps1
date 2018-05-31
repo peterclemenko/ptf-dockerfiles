@@ -1,4 +1,4 @@
-$containerName = "vulnerability-analysis-nmap"
+$containerName = "docker-ptf"
 
 docker container stop $containerName 
 docker container rm $containerName

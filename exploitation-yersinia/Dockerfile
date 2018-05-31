@@ -8,7 +8,7 @@ WORKDIR $HOME
 COPY ./ptf.config $HOME/ptf/config/ptf.config
 WORKDIR $HOME/ptf
 
-RUN git clone https://github.com/trustedsec/ptf.git /pentest/ptf
+
 
 WORKDIR /pentest/ptf
 

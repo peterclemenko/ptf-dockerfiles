@@ -1,5 +1,5 @@
-$IMAGEID = "e841f1fefc09"
-$imageFileName = "vulnerability-analysis-nmap-i"
+$IMAGEID = "1deb91ad627d"
+$imageFileName = "docker-ptf"
 $tag = "latest"
 
 
