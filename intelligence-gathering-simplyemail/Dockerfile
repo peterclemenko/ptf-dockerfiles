@@ -1,4 +1,4 @@
-FROM aoighost/node-powershell
+FROM aoighost/docker-ptf:latest
 
 LABEL maintainer="Peter Clemenko"
 
